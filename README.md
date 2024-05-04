@@ -27,7 +27,13 @@ Divinci resolve
 <p><a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">Link to main page</a>.</p>
 
 
-<h3>How it works</h3>
+<h2>How it works</h2>
+
+<h3>Save video as image files</h3>
+<ol>
+  <li></li>
+</ol>
+
 <p>-Install ImageMagick if you haven't already.</p>
 <p>-Place the BMP images you want to convert in the specified input_folder.</p>
 <pre>input_folder = "/users/documents/input_folder"</pre>
