@@ -39,49 +39,10 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 </ol>
 
 
+<h2>Tips and Considerations</h2>
+<ul><li>Image Size: Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen.</li></ul>
 
 
-
-<h3>Save video as image files</h3>
-<ol>
-<li>upload your video file you want to divinci resolve and click the render tab at the bottom right of the screen(circled in red on the image)</li>
-<img src="./readmeimages/screen_one.png" alt="Screen One">
-<li>Navigate on the left to the individual clip option and remember what export format you chose. You will need it for you Magick image Convert</li>
-<img src="./readmeimages/screen_two.png" alt="Screen Two">
-<li>choose your export folder and click render at the bottom</li>
-<img src="./readmeimages/screen_three.png" alt="Screen Three">
-</ol>
-
-<h3>-Convert Images with Magick</h3>
-
-<ol>
-  <li>Open the imagetobpm.py file.</li>
-  <li>replace destination of input_folder to where you saved the files from divinci.</li>
-  <pre>input_folder = "/users/documents/input_folder"</pre>
-  <li>replace destination of output_folder to where you want converted images to be saved.</li>
-  <pre>input_folder = "/users/documents/output_folder"</pre>
-  <li>Run the script in temrinal to convert the images to PBM format in the output_folder.</li>
-  <pre>python imagetobpm.py</pre>
-</ol>
-
-<h2>Loading images to raspberry pico w with thonny</h2>
-<p>-Ive stored my images on a SD drive ive connected to my raspberry pico, i suggest research expanding stoarage space for larger video lengths</p>
-<p>-copy the main.py files to your thonny ide </p>
-<ol>
-  <li>Change the path to your folder with your bpm images, my images are located in my sd folder</li>
-  <pre>file_path = '/sd/pbm_converted'</pre>
-  <li>Run Thoony program</li>
-</ol>
-
-<h2>Errors and road blocks</h2>
-<ul>
-  <li>Remmeber to keep image size of 128 x 64 as its the native resolution of the screen</li>
-  <li>You can adjust the color invert to better display your image if needed</li>
-  <pre> oled.invert(1)</pre>
-  or
-  <pre>oled.invert(0)</pre>
-  <li>file memory on pico is minimal. expanding to sd would give ability for larger files</li>
-</ul>
 
 
 
