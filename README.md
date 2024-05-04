@@ -6,8 +6,8 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 <ol>
   <li><h4>Download all required tools</h4></li>
   <p>Python 3.5 or later</p>
-  <a href="https://www.blackmagicdesign.com/products/davinciresolve">Divinci Resolve</a>
-  <a href="https://www.blackmagicdesign.com/products/davinciresolve](https://imagemagick.org/index.php">ImagiMagick</a>
+  <p><a href="https://www.blackmagicdesign.com/products/davinciresolve">Divinci Resolve</a></p>
+  <p><a href="https://www.blackmagicdesign.com/products/davinciresolve](https://imagemagick.org/index.php">ImagiMagick</a></p>
   <li><h4>Use DaVinci Resolve to save the video as multiple images</h4>
     <ul>
       <li>Upload your video file to DaVinci Resolve.</li>
