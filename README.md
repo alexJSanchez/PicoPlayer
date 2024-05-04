@@ -45,7 +45,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 <h2>Tips and Considerations</h2>
 <ul>
   <li>
-    Image Size: Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen. i also found 64x64 works if you wanna use for half the screen size. 
+    Image Size: Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen. i also found 64x64 works if you want to use for half the screen size. 
   </li>
   <li>
     Color Invert: You can adjust the color invert to better display your image if needed.
