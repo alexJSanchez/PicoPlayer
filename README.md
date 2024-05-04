@@ -63,7 +63,7 @@ Divinci resolve
 
 <h2>Errors and road blocks</h2>
 <ul>
-  <li>Remmeber to keep image size of 128 x 64</li>
+  <li>Remmeber to keep image size of 128 x 64 as its the native resolution of the screen</li>
   <li>You can adjust the color invert to better display your image if needed</li>
   <pre> oled.invert(1)</pre>
   or
