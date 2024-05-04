@@ -60,6 +60,16 @@ Divinci resolve
   <pre>file_path = '/sd/pbm_converted'</pre>
 </ol>
 
+<h2>Errors and road blocks</h2>
+<p></p>
+<p>-copy the main.py files to your thonny ide </p>
+<ol>
+  <li>Change the path to your folder with your bpm images, my images are located in my sd folder</li>
+  <pre>file_path = '/sd/pbm_converted'</pre>
+</ol>
+
+
+
 
 
 
