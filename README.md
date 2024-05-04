@@ -40,7 +40,7 @@ Divinci resolve
 <img src="./readmeimages/screen_three.png" alt="Screen Three">
 </ol>
 
-<p>-Install ImageMagick if you haven't already.</p>
+<h3>-Install ImageMagick if you haven't already.</h3>
 <p>-Place the BMP images you want to convert in the specified input_folder.</p>
 <pre>input_folder = "/users/documents/input_folder"</pre>
 <p>-Run the script to convert the images to PBM format in the output_folder.</p>
