@@ -22,8 +22,10 @@ npm install imagemagick-convert
 <pre>input_folder = "/users/alexa/documents/output_folder"</pre>
 
 <h3>How to Run</h3>
-Clone the repository or download the script.
+Clone the repository or download or copy script into your code.
 Modify the input_folder and output_folder variables in the script to match your desired input and output locations.
-Run the script using Python.
+Run the script in your code.
+
+<pre>python every25.py</pre>
 
 
