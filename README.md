@@ -50,7 +50,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
   <pre>
     oled.invert(1)
   </pre>
-  or
+  <p>or</p>
   <pre>
     oled.invert(0)
   </pre>
