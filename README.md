@@ -1,5 +1,6 @@
-<h1>Video to image convert/ Respberry Pico SSD1306 OLED display</h1>
-This Python script converts BMP images to PBM format using ImageMagick.
+<h1>Video to Image Conversion for Raspberry Pi Pico SSD1306 OLED Display</h1>
+<h2>Overview</h2>
+This project aims to provide a solution for displaying videos on the SSD1306 OLED display connected to a Raspberry Pi Pico. Since the display has limitations in playing videos directly, we use DaVinci Resolve to convert the video into a sequence of images. These images are then converted to PBM format using ImageMagick and displayed on the SSD1306 OLED screen using Python and the framebuf module.
 
 <h3>Situation</h3>
 <p>Working with displaying images from rasberry pico onto your <a href="https://esphome.io/components/display/ssd1306.html">ssd1306 oled</a> screens. here is an easy way to convert your images from any format into bpm </p>
