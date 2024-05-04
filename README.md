@@ -1,5 +1,14 @@
 <h1>Video to image convert/ Respberry Pico SSD1306 OLED display</h1>
-This Python script converts BMP images to PBM format using ImageMagick.
+
+<h3>Steps</h3>
+<ol>
+  <li>Download all requirement tools needed</li>
+  <li>Use Divinci Resolve to save video into multple images</li>
+  <li>Use this Python script to convert BMP images to PBM format using ImageMagick</li>
+  <li>Display your folder of images using frameBuff and ssd1306 OLED display</li>
+</ol>
+
+
 
 <h3>Situation</h3>
 <p>Working with displaying images from rasberry pico onto your <a href="https://esphome.io/components/display/ssd1306.html">ssd1306 oled</a> screens. here is an easy way to convert your images from any format into bpm </p>
