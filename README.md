@@ -16,7 +16,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
       <img src="./readmeimages/screen_three.png" alt="Screen Three">
     </ul>
   </li>
-  <li>Use the provided Python script to convert BMP images to PBM format using ImageMagick
+  <li><h4>Use the provided Python script to convert BMP images to PBM format using ImageMagick</h4>
     <ul>
       <li>Open the imagetobpm.py file.</li>
       <li>Replace the destination of input_folder with the folder where you saved the files from DaVinci Resolve.</li>
