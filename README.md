@@ -41,14 +41,17 @@ Divinci resolve
 </ol>
 
 <h3>-Convert Images with Magick</h3>
-<pre>input_folder = "/users/documents/input_folder"</pre>
-<p>-Run the script to convert the images to PBM format in the output_folder.</p>
-<pre>input_folder = "/users/documents/output_folder"</pre>
+
+
+
 
 <ol>
   <li>Open the imagetobpm.py file.</li>
   <li>replace destination of input_folder to where you saved the files from divinci.</li>
+  <pre>input_folder = "/users/documents/input_folder"</pre>
   <li>replace destination of output_folder to where you want converted images to be saved.</li>
+  <pre>input_folder = "/users/documents/output_folder"</pre>
+  <li>Run the script in temrinal to convert the images to PBM format in the output_folder.</li>
 </ol>
 
 
