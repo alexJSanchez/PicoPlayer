@@ -2,7 +2,7 @@
 This Python script converts BMP images to PBM format using ImageMagick.
 
 <h3>Situation</h3>
-<p>Your working with displaying images onto your <a>ssd1306 oled</a> screem  </p>
+<p>Your working with displaying images onto your <a href="https://esphome.io/components/display/ssd1306.html">ssd1306 oled</a> screem  </p>
 
 <h3>Requirements</h3>
 Python 3.5 or later
