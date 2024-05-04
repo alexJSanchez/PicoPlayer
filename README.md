@@ -13,6 +13,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
       <li>Choose your export folder and click render at the bottom.</li>
     </ul>
   </li>
+  <li>Use the provided Python script to convert BMP images to PBM format using ImageMagick</li>
 </ol>
 
 
