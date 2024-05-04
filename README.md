@@ -17,6 +17,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
     <ul>
       <li>Open the imagetobpm.py file.</li>
       <li>Replace the destination of input_folder with the folder where you saved the files from DaVinci Resolve.</li>
+      <pre>input_folder = "/users/documents/input_folder"</pre>
     </ul>
   </li>
 </ol>
