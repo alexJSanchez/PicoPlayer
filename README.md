@@ -12,13 +12,12 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 2. **Use DaVinci Resolve to save the video as multiple images**
    - Upload your video file to DaVinci Resolve.
    - Click the render tab at the bottom right of the screen.
-   ![Screen One](./readmeimages/screen_one.png)
+   <img src="./readmeimages/screen_one.jpg" width="50%">
    - Navigate to the individual clip option on the left and note the export format you chose.
-   ![Screen Two](./readmeimages/screen_two.png)
+   <img src="./readmeimages/screen_two.jpg" width="50%">
    - Choose your export folder and click render at the bottom.
-   ![Screen Three](./readmeimages/screen_three.png)
-
-3. **Use the provided Python script to convert BMP images to PBM format using ImageMagick**
+   <img src="./readmeimages/screen_three.jpg" width="50%">
+4. **Use the provided Python script to convert BMP images to PBM format using ImageMagick**
    - Open the `imagetobpm.py` file.
    - Replace the destination of `input_folder` with the folder where you saved the files from DaVinci Resolve.
      ```
