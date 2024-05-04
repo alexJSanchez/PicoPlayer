@@ -17,6 +17,7 @@ npm install imagemagick-convert
 <h3>How it works</h3>
 <p>-Install ImageMagick if you haven't already.</p>
 <p>-Place the BMP images you want to convert in the specified input_folder.</p>
+<pre>input_folder = "/users/alexa/documents/BlvckHvrts"</pre>
 <p>-Run the script to convert the images to PBM format in the output_folder.</p>
 
 <h3>How to Run</h3>
