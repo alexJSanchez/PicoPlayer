@@ -5,6 +5,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 <h3>Steps</h3>
 <ol>
   <li><h4>Download all required tools</h4></li>
+  <a href="https://www.blackmagicdesign.com/products/davinciresolve"></a>
   <li><h4>Use DaVinci Resolve to save the video as multiple images</h4>
     <ul>
       <li>Upload your video file to DaVinci Resolve.</li>
