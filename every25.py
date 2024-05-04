@@ -14,7 +14,7 @@ def convert_bmp_to_pbm(input_folder, output_folder):
         if filename.endswith(".bmp"):
             counter += 1
             # Skip files until the 25th file is reached
-            if counter % 20 != 0:
+            if counter % 25 != 0:
                 continue
             
             input_path = os.path.join(input_folder, filename)
