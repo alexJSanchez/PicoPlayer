@@ -13,7 +13,12 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
       <li>Choose your export folder and click render at the bottom.</li>
     </ul>
   </li>
-  <li>Use the provided Python script to convert BMP images to PBM format using ImageMagick</li>
+  <li>Use the provided Python script to convert BMP images to PBM format using ImageMagick
+    <ul>
+      <li>Open the imagetobpm.py file.</li>
+      <li>Replace the destination of input_folder with the folder where you saved the files from DaVinci Resolve.</li>
+    </ul>
+  </li>
 </ol>
 
 
