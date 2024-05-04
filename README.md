@@ -10,6 +10,7 @@ Python 3.5 or later
 ImageMagick
 <pre>
 npm install imagemagick
+npm install imagemagick-convert
 </pre>
 
 
