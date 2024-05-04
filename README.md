@@ -56,9 +56,10 @@ Divinci resolve
 <p>-Ive stored my images on a SD drive ive connected to my raspberry pico, i suggest research expanding stoarage space for larger video lengths</p>
 <p>-copy the main.py files to your thonny ide </p>
 <ol>
-  <li>Change the path to</li>
+  <li>Change the path to your folder with your bpm images, my images are located in my sd folder</li>
+  <pre>file_path = '/sd/pbm_converted'</pre>
 </ol>
-<pre>file_path = '/sd/pbm_converted'</pre>
+
 
 
 
