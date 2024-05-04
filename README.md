@@ -1,71 +1,44 @@
-<h1>Video to Image Conversion for Raspberry Pi Pico SSD1306 OLED Display</h1>
-<h2>Overview</h2>
-This project aims to provide a solution for displaying videos on the SSD1306 OLED display connected to a Raspberry Pi Pico. Since the display has limitations in playing videos directly, we use DaVinci Resolve to convert the video into a sequence of images. These images are then converted to PBM format using ImageMagick and displayed on the <a href="https://esphome.io/components/display/ssd1306.html">SSD1306 OLED screen</a>  using Python and the framebuf module.
+# Video to Image Conversion for Raspberry Pi Pico SSD1306 OLED Display
 
-<h3>Steps</h3>
-<ol>
-  <li><h4>Download all required tools</h4></li>
-  <p>Python 3.5 or later</p>
-  <p><a href="https://www.blackmagicdesign.com/products/davinciresolve">Divinci Resolve</a></p>
-  <p><a href="https://www.blackmagicdesign.com/products/davinciresolve](https://imagemagick.org/index.php">ImagiMagick</a></p>
-  <li><h4>Use DaVinci Resolve to save the video as multiple images</h4>
-    <ul>
-      <li>Upload your video file to DaVinci Resolve.</li>
-      <li>Click the render tab at the bottom right of the screen.</li>
-      <img src="./readmeimages/screen_one.png" alt="Screen One">
-      <li>Navigate to the individual clip option on the left and note the export format you chose.</li>
-      <img src="./readmeimages/screen_two.png" alt="Screen Two">
-      <li>Choose your export folder and click render at the bottom.</li>
-      <img src="./readmeimages/screen_three.png" alt="Screen Three">
-    </ul>
-  </li>
-  <li><h4>Use the provided Python script to convert BMP images to PBM format using ImageMagick</h4>
-    <ul>
-      <li>Open the imagetobpm.py file.</li>
-      <li>Replace the destination of input_folder with the folder where you saved the files from DaVinci Resolve.</li>
-      <pre>input_folder = "/users/documents/input_folder"</pre>
-      <li>Replace the destination of output_folder with where you want converted images to be saved.</li>
-      <pre>output_folder = "/users/documents/output_folder"</pre>
-      <li>Run the script in the terminal to convert the images to PBM format in the output_folder.</li>
-      <pre>python imagetobpm.py</pre>
-    </ul>
-  </li>
-  <li>
-    Display the converted images on your SSD1306 OLED display using framebuf.
-    <ul>
-      <li>Store the images on an SD drive connected to the Raspberry Pi Pico.</li>
-      <li>Copy the main.py file to your Thonny IDE.</li>
-      <li>Change the path to your folder with your PBM images (e.g., file_path = '/sd/pbm_converted').</li>
-      <li>Run the Thonny program.</li>
-    </ul>
-  </li>
-</ol>
+## Overview
+This project aims to provide a solution for displaying videos on the SSD1306 OLED display connected to a Raspberry Pi Pico. Since the display has limitations in playing videos directly, we use DaVinci Resolve to convert the video into a sequence of images. These images are then converted to PBM format using ImageMagick and displayed on the [SSD1306 OLED screen](https://esphome.io/components/display/ssd1306.html) using Python and the framebuf module.
 
+### Steps
+1. **Download all required tools**
+   - Python 3.5 or later
+   - [Divinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
+   - [ImageMagick](https://imagemagick.org/index.php)
 
-<h2>Tips and Considerations</h2>
-<ul>
-  <li>
-    Image Size: Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen. i also found 64x64 works if you want to use for half the screen size. 
-  </li>
-  <li>
-    Color Invert: You can adjust the color invert to better display your image if needed.
-  </li>
-  <pre>oled.invert(1)</pre>
-  <p>or</p>
-  <pre>oled.invert(0)</pre>
-  <li>  
-    File Memory: The file memory on Raspberry Pi Pico is minimal. Expanding to an SD card would give the ability for larger files.
-  </li>
-  <li>
-    With videos you might not want 7000 frames lol. so the every25.py can be modefied to output what ever conversion 
-    amount you want
-  </li>
-</ul>
+2. **Use DaVinci Resolve to save the video as multiple images**
+   - Upload your video file to DaVinci Resolve.
+   - Click the render tab at the bottom right of the screen.
+   ![Screen One](./readmeimages/screen_one.png)
+   - Navigate to the individual clip option on the left and note the export format you chose.
+   ![Screen Two](./readmeimages/screen_two.png)
+   - Choose your export folder and click render at the bottom.
+   ![Screen Three](./readmeimages/screen_three.png)
 
+3. **Use the provided Python script to convert BMP images to PBM format using ImageMagick**
+   - Open the `imagetobpm.py` file.
+   - Replace the destination of `input_folder` with the folder where you saved the files from DaVinci Resolve.
+     ```
+     input_folder = "/users/documents/input_folder"
+     ```
+   - Replace the destination of `output_folder` with where you want converted images to be saved.
+     ```
+     output_folder = "/users/documents/output_folder"
+     ```
+   - Run the script in the terminal to convert the images to PBM format in the `output_folder`.
+     ```
+     python imagetobpm.py
+     ```
 
+4. **Display the converted images on your SSD1306 OLED display using framebuf**
+   - Store the images on an SD drive connected to the Raspberry Pi Pico.
+   - Copy the `main.py` file to your Thonny IDE.
+   - Change the path to your folder with your PBM images (e.g., `file_path = '/sd/pbm_converted'`).
+   - Run the Thonny program.
 
-
-
-
-
-
+## Tips and Considerations
+- **Image Size:** Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen.
+- **Color Invert:** You can adjust the color invert to better display your image if needed.
