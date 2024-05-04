@@ -16,8 +16,8 @@ Modify the input_folder and output_folder variables in the script to match your 
 Run the script using Python.
 
 <pre>
-```python
+
 def product():
     print("hello world")
-```
+
 </pre>
