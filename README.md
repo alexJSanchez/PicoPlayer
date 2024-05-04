@@ -61,12 +61,11 @@ Divinci resolve
 </ol>
 
 <h2>Errors and road blocks</h2>
-<p></p>
-<p>-copy the main.py files to your thonny ide </p>
-<ol>
-  <li>Change the path to your folder with your bpm images, my images are located in my sd folder</li>
-  <pre>file_path = '/sd/pbm_converted'</pre>
-</ol>
+<ul>
+  <li>Remmeber to keep image size of 128 x 64</li>
+  <li>You can adjust the color invert to better display your image if needed</li>
+  <pre> oled.invert(1)</pre>
+</ul>
 
 
 
