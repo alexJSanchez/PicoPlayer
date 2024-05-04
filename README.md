@@ -1,4 +1,4 @@
-<h1>BMP to PBM Image Converter</h1>
+<h1>Video to image convert/ Respberry Pico SSD1306 OLED display</h1>
 This Python script converts BMP images to PBM format using ImageMagick.
 
 <h3>Situation</h3>
