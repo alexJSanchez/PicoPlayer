@@ -32,7 +32,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
      ```
      python imagetobpm.py
      ```
-   **My wiring**
+   # MY WIRING
     ![Screen One](./readmeimages/tech_one.jpg)
 5. **Display the converted images on your SSD1306 OLED display using framebuf**
    - Store the images on an SD drive connected to the Raspberry Pi Pico. If you dont have one here is some helpful videos to navigate through the process. [SD Card Setup](https://www.youtube.com/watch?v=PSjzymhL4I0&t=780s)
