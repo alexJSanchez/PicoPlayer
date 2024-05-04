@@ -8,6 +8,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
   <li>Use DaVinci Resolve to save the video as multiple images
     <ul>
       <li>Upload your video file to DaVinci Resolve.</li>
+      <li>Click the render tab at the bottom right of the screen.</li>
     </ul>
   </li>
 </ol>
