@@ -18,14 +18,15 @@ Python 3.5 or later
 <p>https://www.python.org/downloads/release/python-350/</p>
 
 ImageMagick
+
 <pre>
 npm install imagemagick
 npm install imagemagick-convert
 </pre>
 
 Divinci resolve
-<p><a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">Link to main page</a>.</p>
 
+<p><a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">Link to main page</a>.</p>
 
 <h2>How it works</h2>
 
@@ -46,5 +47,3 @@ Modify the input_folder and output_folder variables in the script to match your 
 Run the script in your code.
 
 <pre>python imagetobpm.py</pre>
-
-

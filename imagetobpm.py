@@ -22,8 +22,8 @@ def convert_bmp_to_pbm(input_folder, output_folder):
             subprocess.run(["magick", "convert", input_path, output_path])
 
 # Specify the input and output folders
-input_folder = "/users/documents/input_folder_name"
-output_folder = "/users/documents/output_folder-name"
+input_folder = "/users/alexa/documents/BlvckHvrts"
+output_folder = "/users/alexa/documents/test_convert"
 
 # Convert BMP images in the input folder
 convert_bmp_to_pbm(input_folder, output_folder)
