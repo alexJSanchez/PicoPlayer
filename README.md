@@ -58,6 +58,7 @@ Divinci resolve
 <ol>
   <li>Change the path to your folder with your bpm images, my images are located in my sd folder</li>
   <pre>file_path = '/sd/pbm_converted'</pre>
+  <li>Run Thoony program</li>
 </ol>
 
 <h2>Errors and road blocks</h2>
