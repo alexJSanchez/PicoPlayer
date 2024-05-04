@@ -2,7 +2,13 @@
 This Python script converts BMP images to PBM format using ImageMagick.
 
 <h3>Situation</h3>
-<p>Your working with displaying images onto your <a href="https://esphome.io/components/display/ssd1306.html">ssd1306 oled</a> screem  </p>
+<p>Working with displaying images from rasberry pico onto your <a href="https://esphome.io/components/display/ssd1306.html">ssd1306 oled</a> screens. here is an easy way to convert your images from any format into bpm </p>
+
+<h3>Reason</h3>
+<p>I was finding that videos could not be played using such a restrictive display</p>
+<p>So i worked out a system where i would save the video into multiple images using <a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">divinci resolve</a>.</p>
+<p>Convert the images using magik into bpm which drasticly decreases the file size even more.</p>
+
 
 <h3>Requirements</h3>
 Python 3.5 or later
