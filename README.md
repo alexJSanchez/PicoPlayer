@@ -41,20 +41,35 @@ Divinci resolve
 </ol>
 
 <h3>-Convert Images with Magick</h3>
-<p>Open the imagetobpm.py file. replace destination of input_folder to where you saved the files from divinci. replace destination of output_folder to where you want converted images to be saved.</p>
-<pre>input_folder = "/users/documents/input_folder"</pre>
-<p>-Run the script to convert the images to PBM format in the output_folder.</p>
-<pre>input_folder = "/users/documents/output_folder"</pre>
 
 <ol>
-  <li></li>
+  <li>Open the imagetobpm.py file.</li>
+  <li>replace destination of input_folder to where you saved the files from divinci.</li>
+  <pre>input_folder = "/users/documents/input_folder"</pre>
+  <li>replace destination of output_folder to where you want converted images to be saved.</li>
+  <pre>input_folder = "/users/documents/output_folder"</pre>
+  <li>Run the script in temrinal to convert the images to PBM format in the output_folder.</li>
+  <pre>python imagetobpm.py</pre>
+</ol>
+
+<h2>Loading images to raspberry pico w with thonny</h2>
+<p>-Ive stored my images on a SD drive ive connected to my raspberry pico, i suggest research expanding stoarage space for larger video lengths</p>
+<p>-copy the main.py files to your thonny ide </p>
+<ol>
+  <li>Change the path to your folder with your bpm images, my images are located in my sd folder</li>
+  <pre>file_path = '/sd/pbm_converted'</pre>
+</ol>
+
+<h2>Errors and road blocks</h2>
+<p></p>
+<p>-copy the main.py files to your thonny ide </p>
+<ol>
+  <li>Change the path to your folder with your bpm images, my images are located in my sd folder</li>
+  <pre>file_path = '/sd/pbm_converted'</pre>
 </ol>
 
 
 
-<h3>How to Run</h3>
-Clone the repository or copy script into your code.
-Modify the input_folder and output_folder variables in the script to match your desired input and output locations.
-Run the script in your code.
 
-<pre>python imagetobpm.py</pre>
+
+
