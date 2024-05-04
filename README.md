@@ -35,9 +35,10 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
    # MY BreadBoard
 
    <img src="./readmeimages/tech_one.jpg" width="50%">
-    ![Screen One](./readmeimages/tech_two.jpg)
-    ![Screen One](./readmeimages/tech_three.jpg)
-    ![Screen One](./readmeimages/tech_four.jpg)
+   <img src="./readmeimages/tech_two.jpg" width="50%">
+   <img src="./readmeimages/tech_three.jpg" width="50%">
+   <img src="./readmeimages/tech_four.jpg" width="50%">
+  
    
 
 
