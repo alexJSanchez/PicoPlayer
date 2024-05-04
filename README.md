@@ -24,6 +24,15 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
       <pre>python imagetobpm.py</pre>
     </ul>
   </li>
+  <li>
+    Display the converted images on your SSD1306 OLED display using framebuf.
+    <ul>
+      <li>Store the images on an SD drive connected to the Raspberry Pi Pico.</li>
+      <li>Copy the main.py file to your Thonny IDE.</li>
+      <li>Change the path to your folder with your PBM images (e.g., file_path = '/sd/pbm_converted').</li>
+      <li>Run the Thonny program.</li>
+    </ul>
+  </li>
 </ol>
 
 
