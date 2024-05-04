@@ -50,7 +50,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 ## Tips and Considerations
 - **Image Size:** Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen.
 - **Color Invert:** You can adjust the color invert to better display your image if needed.
-- **Sd Mount Seperation:** i found seperating the mount for the sd card helped me troubleshoot easier.
+- **Sd Mount Seperation:** i found seperating the mount for the sd card helped me troubleshoot easier. try something like this.
 ```
 #check if you mounted the sd card
    try:
