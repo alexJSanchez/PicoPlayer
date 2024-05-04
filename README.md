@@ -50,13 +50,9 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
   <li>
     Color Invert: You can adjust the color invert to better display your image if needed.
   </li>
-  <pre>
-    oled.invert(1)
-  </pre>
+  <pre>oled.invert(1)</pre>
   <p>or</p>
-  <pre>
-    oled.invert(0)
-  </pre>
+  <pre>oled.invert(0)</pre>
   <li>  
     File Memory: The file memory on Raspberry Pi Pico is minimal. Expanding to an SD card would give the ability for          larger files.
   </li>
