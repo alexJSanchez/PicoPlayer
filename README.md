@@ -65,6 +65,9 @@ Divinci resolve
   <li>Remmeber to keep image size of 128 x 64</li>
   <li>You can adjust the color invert to better display your image if needed</li>
   <pre> oled.invert(1)</pre>
+  or
+  <pre>oled.invert(0)</pre>
+  <li>file memory on pico is minimal. expanding to sd would give ability for larger files</li>
 </ul>
 
 
