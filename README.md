@@ -3,9 +3,8 @@ This Python script converts BMP images to PBM format using ImageMagick.
 
 <h3>Requirements</h3>
 Python 3.5 or later
-<pre>
 https://www.python.org/downloads/release/python-350/
-</pre>
+
 
 
 ImageMagick
