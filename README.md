@@ -34,7 +34,8 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
      ```
 
 4. **Display the converted images on your SSD1306 OLED display using framebuf**
-   - Store the images on an SD drive connected to the Raspberry Pi Pico.
+   - Store the images on an SD drive connected to the Raspberry Pi Pico. If you dont have one here is some helpful videos to navigate through the process. [SD Card Setup](https://www.youtube.com/watch?v=PSjzymhL4I0&t=780s)
+   - Some troubleshoot will be needed for first time users, but be patient and do one pin at a time. Color wired organization is really helpful. Dont give up.
    - Copy the `main.py` file to your Thonny IDE.
    - Change the path to your folder with your PBM images (e.g., `file_path = '/sd/pbm_converted'`).
    - Run the Thonny program.
