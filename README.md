@@ -45,7 +45,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 <h2>Tips and Considerations</h2>
 <ul>
   <li>
-    Image Size: Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen.
+    Image Size: Keep the image size at 128 x 64, as it's the native resolution of the SSD1306 OLED screen. i also found 64x64 works if you wanna use for half the screen size. 
   </li>
   <li>
     Color Invert: You can adjust the color invert to better display your image if needed.
@@ -54,7 +54,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
   <p>or</p>
   <pre>oled.invert(0)</pre>
   <li>  
-    File Memory: The file memory on Raspberry Pi Pico is minimal. Expanding to an SD card would give the ability for          larger files.
+    File Memory: The file memory on Raspberry Pi Pico is minimal. Expanding to an SD card would give the ability for larger files.
   </li>
   <li>
     With videos you might not want 7000 frames lol. so the every25.py can be modefied to output what ever conversion 
