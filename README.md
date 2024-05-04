@@ -33,7 +33,8 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
      python imagetobpm.py
      ```
    # MY BreadBoard
-    ![Screen One](./readmeimages/tech_one.jpg)
+
+   <img src="./readmeimages/tech_one.jpg" width="50%">
     ![Screen One](./readmeimages/tech_two.jpg)
     ![Screen One](./readmeimages/tech_three.jpg)
     ![Screen One](./readmeimages/tech_four.jpg)
