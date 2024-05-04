@@ -55,6 +55,9 @@ Divinci resolve
 <h2>Loading images to raspberry pico w with thonny</h2>
 <p>-Ive stored my images on a SD drive ive connected to my raspberry pico, i suggest research expanding stoarage space for larger video lengths</p>
 <p>-copy the main.py files to your thonny ide </p>
+<ol>
+  <li>Change the path to</li>
+</ol>
 <pre>file_path = '/sd/pbm_converted'</pre>
 
 
