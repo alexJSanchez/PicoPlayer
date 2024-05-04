@@ -28,7 +28,7 @@ except OSError as e:
 
 
 # Set file path
-file_path = '/sd/bh_pbm_converted'
+file_path = '/sd/pbm_converted'
 
 for file_name in uos.listdir(file_path):
     #Only selects images ending in pbm
