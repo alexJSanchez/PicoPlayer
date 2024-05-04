@@ -9,6 +9,8 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
     <ul>
       <li>Upload your video file to DaVinci Resolve.</li>
       <li>Click the render tab at the bottom right of the screen.</li>
+      <li>Navigate to the individual clip option on the left and note the export format you chose.</li>
+      <li>Choose your export folder and click render at the bottom.</li>
     </ul>
   </li>
 </ol>
