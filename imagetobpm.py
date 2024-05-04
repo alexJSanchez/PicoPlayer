@@ -13,17 +13,16 @@ def convert_bmp_to_pbm(input_folder, output_folder):
     
     # Iterate over files in the input folder
     for filename in os.listdir(input_folder):
-        #if your images are in different format simply replace the end switch
-        if filename.endswith(".bmp"):
+        if filename.endswith(".png"):
             input_path = os.path.join(input_folder, filename)
             output_filename = os.path.splitext(filename)[0] + ".pbm"
             output_path = os.path.join(output_folder, output_filename)
-            # Convert the image using ImageMagick
-            subprocess.run(["magick", "convert", input_path, output_path])
+            # Convert and resize the image using ImageMagick
+            subprocess.run(["magick", "convert", input_path, "-resize", "128x64", output_path])
 
 # Specify the input and output folders
-input_folder = "/users/documents/input_folder"
-output_folder = "/users/documents/output_folder"
+input_folder = "/users/my_user/documents/input_folder"
+output_folder = "/users/my_user/documents/output_folder"
 
 # Convert BMP images in the input folder
 convert_bmp_to_pbm(input_folder, output_folder)
