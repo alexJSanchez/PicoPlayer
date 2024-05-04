@@ -52,7 +52,7 @@ Divinci resolve
   <pre>python imagetobpm.py</pre>
 </ol>
 
-<h2>Loading to raspberry pico w with thonny</h2>
+<h2>Loading images to raspberry pico w with thonny</h2>
 <p>Ive stored my images on a SD drive ive connected to my raspberry pico</p>
 <p>copy the main.py files to your thonny ide </p>
 
