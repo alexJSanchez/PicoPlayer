@@ -16,7 +16,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
    - Navigate to the individual clip option on the left and note the export format you chose.
    ![Screen Two](./readmeimages/screen_two.png)
    - Choose your export folder and click render at the bottom.
-   ![Screen Three](./readmeimages/screen_three.png width=250x)
+   ![Screen Three](./readmeimages/screen_three.png)
 
 3. **Use the provided Python script to convert BMP images to PBM format using ImageMagick**
    - Open the `imagetobpm.py` file.
@@ -34,7 +34,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
      ```
 
 4. **Display the converted images on your SSD1306 OLED display using framebuf**
-   ![Screen One](./readmeimages/tech_one.jpg)
+   ![Screen One](./readmeimages/tech_one.jpg =250x)
    - Store the images on an SD drive connected to the Raspberry Pi Pico. If you dont have one here is some helpful videos to navigate through the process. [SD Card Setup](https://www.youtube.com/watch?v=PSjzymhL4I0&t=780s)
    - Some troubleshoot will be needed for first time users, but be patient and do one pin at a time. Color wired organization is really helpful. Dont give up.
    - Copy the `main.py` file to your Thonny IDE.
