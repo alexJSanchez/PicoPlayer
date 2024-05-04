@@ -37,7 +37,7 @@ Divinci resolve
 <li>Navigate on the left to the individual clip option and remember what export format you chose. You will need it for you Magick image Convert</li>
 <img src="./readmeimages/screen_two.png" alt="Screen Two">
 <li>choose your export folder and click render at the bottom</li>
-<img src="./readmeimages/screen_two.png" alt="Screen Three">
+<img src="./readmeimages/screen_three.png" alt="Screen Three">
 </ol>
 
 <p>-Install ImageMagick if you haven't already.</p>
