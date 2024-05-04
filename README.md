@@ -16,7 +16,7 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
    - Navigate to the individual clip option on the left and note the export format you chose.
    ![Screen Two](./readmeimages/screen_two.png)
    - Choose your export folder and click render at the bottom.
-   ![Screen Three](./readmeimages/screen_three.png =100x)
+   ![Screen Three](./readmeimages/screen_three.png =100y)
 
 3. **Use the provided Python script to convert BMP images to PBM format using ImageMagick**
    - Open the `imagetobpm.py` file.
