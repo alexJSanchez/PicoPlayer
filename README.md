@@ -5,7 +5,9 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 <h3>Steps</h3>
 <ol>
   <li>Download Required tools</li>
-  <li><ol>Use DaVinci Resolve to save the video as multiple images</ol></li>
+  <li>Use DaVinci Resolve to save the video as multiple images
+    <ol></ol>
+  </li>
 </ol>
 
 
