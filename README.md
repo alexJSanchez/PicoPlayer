@@ -18,6 +18,10 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
       <li>Open the imagetobpm.py file.</li>
       <li>Replace the destination of input_folder with the folder where you saved the files from DaVinci Resolve.</li>
       <pre>input_folder = "/users/documents/input_folder"</pre>
+      <li>Replace the destination of output_folder with where you want converted images to be saved.</li>
+      <pre>output_folder = "/users/documents/output_folder"</pre>
+      <li>Run the script in the terminal to convert the images to PBM format in the output_folder.</li>
+      <pre>python imagetobpm.py</pre>
     </ul>
   </li>
 </ol>
