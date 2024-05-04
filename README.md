@@ -60,6 +60,10 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
   <li>  
     File Memory: The file memory on Raspberry Pi Pico is minimal. Expanding to an SD card would give the ability for          larger files.
   </li>
+  <li>
+    With videos you might not want 7000 frames lol. so the every25.py can be modefied to output what ever conversion 
+    amount you want
+  </li>
 </ul>
 
 
