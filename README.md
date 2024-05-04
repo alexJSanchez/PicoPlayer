@@ -22,7 +22,7 @@ npm install imagemagick-convert
 <pre>input_folder = "/users/documents/output_folder"</pre>
 
 <h3>How to Run</h3>
-Clone the repository or download or copy script into your code.
+Clone the repository or copy script into your code.
 Modify the input_folder and output_folder variables in the script to match your desired input and output locations.
 Run the script in your code.
 
