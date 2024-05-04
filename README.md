@@ -17,13 +17,14 @@ fbuf = framebuf.FrameBuffer(data, 128, 64, framebuf.MONO_HLSB)
 Python 3.5 or later
 <p>https://www.python.org/downloads/release/python-350/</p>
 
-
-
 ImageMagick
 <pre>
 npm install imagemagick
 npm install imagemagick-convert
 </pre>
+
+Divinci resolve
+<p>https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB</p>
 
 
 <h3>How it works</h3>
