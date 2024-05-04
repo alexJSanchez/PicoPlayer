@@ -26,6 +26,6 @@ Clone the repository or copy script into your code.
 Modify the input_folder and output_folder variables in the script to match your desired input and output locations.
 Run the script in your code.
 
-<pre>python every25.py</pre>
+<pre>python imagetobpm.py</pre>
 
 
