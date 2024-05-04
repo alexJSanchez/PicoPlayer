@@ -2,9 +2,6 @@
 <h2>Overview</h2>
 This project aims to provide a solution for displaying videos on the SSD1306 OLED display connected to a Raspberry Pi Pico. Since the display has limitations in playing videos directly, we use DaVinci Resolve to convert the video into a sequence of images. These images are then converted to PBM format using ImageMagick and displayed on the <a href="https://esphome.io/components/display/ssd1306.html">SSD1306 OLED screen</a>  using Python and the framebuf module.
 
-<h3>Situation</h3>
-<p>Working with displaying images from rasberry pico onto your screens. here is an easy way to convert your images from any format into bpm </p>
-
 <h3>Reason</h3>
 <p>I was finding that videos could not be played using such a restrictive display</p>
 <p>So i worked out a system where i would save the video into multiple images using <a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">divinci resolve</a>.</p>
