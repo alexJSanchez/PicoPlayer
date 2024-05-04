@@ -7,7 +7,7 @@ This Python script converts BMP images to PBM format using ImageMagick.
 <h3>Reason</h3>
 <p>I was finding that videos could not be played using such a restrictive display</p>
 <p>So i worked out a system where i would save the video into multiple images using <a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">divinci resolve</a>.</p>
-<p>Convert the images using magik into bpm, i found working with bpm is much easier when using raspberry pi pico framebuf.MONO_HLSB when crteating a framebuffer</p>
+<p>Convert the images using magik into bpm, i found working with bpm is much easier when using raspberry pi pico framebuf.MONO_HLSB when creating a framebuffer</p>
 <pre>
 fbuf = framebuf.FrameBuffer(data, 128, 64, framebuf.MONO_HLSB)
 </pre>
