@@ -6,11 +6,9 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 <ol>
   <li>Download Required tools</li>
   <li>Use DaVinci Resolve to save the video as multiple images
-  
   </li>
-  <ul>here</ul>
-    
 </ol>
+<li>here</li>
 
 <h3>Reason</h3>
 <p>I was finding that videos could not be played using such a restrictive display</p>
