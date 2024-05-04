@@ -32,7 +32,7 @@ Divinci resolve
 
 <h3>Save video as image files</h3>
 <ol>
-  <li></li>
+  <li>![image](/readmeimages/sreen_one.png)</li>
 </ol>
 
 <p>-Install ImageMagick if you haven't already.</p>
