@@ -1,6 +1,9 @@
 <h1>BMP to PBM Image Converter</h1>
 This Python script converts BMP images to PBM format using ImageMagick.
 
+<h3>Situation</h3>
+<p>Your working with displaying images onto your <a>ssd1306 oled</a> screem  </p>
+
 <h3>Requirements</h3>
 Python 3.5 or later
 <p>https://www.python.org/downloads/release/python-350/</p>
