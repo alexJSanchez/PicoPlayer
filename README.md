@@ -32,7 +32,12 @@ Divinci resolve
 
 <h3>Save video as image files</h3>
 <ol>
-  <li><a href="/readmeimages/screen_one.png"></a></li>
+<li>upload your video file you want to divinci resolve and click the render tab at the bottom right of the screen(circled in red on the image)</li>
+<img src="./readmeimages/screen_one.png" alt="Screen One">
+<li>Navigate on the left to the individual clip option and remember what export format you chose. You will need it for you Magick image Convert</li>
+<img src="./readmeimages/screen_two.png" alt="Screen Two">
+<li>choose your export folder and click render at the bottom</li>
+<img src="./readmeimages/screen_two.png" alt="Screen Three">
 </ol>
 
 <p>-Install ImageMagick if you haven't already.</p>
