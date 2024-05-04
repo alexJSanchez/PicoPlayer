@@ -52,13 +52,10 @@ Divinci resolve
   <li>replace destination of output_folder to where you want converted images to be saved.</li>
   <pre>input_folder = "/users/documents/output_folder"</pre>
   <li>Run the script in temrinal to convert the images to PBM format in the output_folder.</li>
+  <pre>python imagetobpm.py</pre>
 </ol>
 
 
 
-<h3>How to Run</h3>
-Clone the repository or copy script into your code.
-Modify the input_folder and output_folder variables in the script to match your desired input and output locations.
-Run the script in your code.
 
-<pre>python imagetobpm.py</pre>
+
