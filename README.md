@@ -9,8 +9,11 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
     <ul>
       <li>Upload your video file to DaVinci Resolve.</li>
       <li>Click the render tab at the bottom right of the screen.</li>
+      <img src="./readmeimages/screen_one.png" alt="Screen One">
       <li>Navigate to the individual clip option on the left and note the export format you chose.</li>
+      <img src="./readmeimages/screen_two.png" alt="Screen Two">
       <li>Choose your export folder and click render at the bottom.</li>
+      <img src="./readmeimages/screen_three.png" alt="Screen Three">
     </ul>
   </li>
   <li>Use the provided Python script to convert BMP images to PBM format using ImageMagick
@@ -36,31 +39,8 @@ This project aims to provide a solution for displaying videos on the SSD1306 OLE
 </ol>
 
 
-<h3>Reason</h3>
-<p>I was finding that videos could not be played using such a restrictive display</p>
-<p>So i worked out a system where i would save the video into multiple images using <a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">divinci resolve</a>.</p>
-<p>Convert the images using magik into bpm, i found working with bpm is much easier when using raspberry pi pico framebuf.MONO_HLSB when creating a framebuffer</p>
-<p>framebuf.MONO_HLSB: Monochrome (black and white) format with 1 bit per pixel, stored horizontally, using least significant bits first. This is often used for OLED displays.</p>
-<pre>
-fbuf = framebuf.FrameBuffer(data, 128, 64, framebuf.MONO_HLSB)
-</pre>
 
-<h3>Requirements</h3>
-Python 3.5 or later
-<p>https://www.python.org/downloads/release/python-350/</p>
 
-ImageMagick
-
-<pre>
-npm install imagemagick
-npm install imagemagick-convert
-</pre>
-
-Divinci resolve
-
-<p><a href="https://www.blackmagicdesign.com/products/davinciresolve/?gad_source=1&gclid=Cj0KCQjwltKxBhDMARIsAG8KnqVhnjNkxVSnKG_3CkTPRG3tfB5WcNx2tyGtQNUmTOsl0KYXpnt_pkkaAlgoEALw_wcB">Link to main page</a>.</p>
-
-<h2>How it works</h2>
 
 <h3>Save video as image files</h3>
 <ol>
