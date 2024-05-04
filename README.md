@@ -1,7 +1,7 @@
 <h1>BMP to PBM Image Converter</h1>
 This Python script converts BMP images to PBM format using ImageMagick.
 
-Requirements
+<h3>Requirements</h3>
 Python 3.5 or later
 ImageMagick
 Usage
